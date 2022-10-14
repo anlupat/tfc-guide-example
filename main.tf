@@ -3,7 +3,7 @@ provider "azurerm" {
   }
 }
 
-resource "azurerm_resource_group" "dwwm" {
-  name     = "dwwm"
-  location = var.region
-}
+# resource "azurerm_resource_group" "dwwm" {
+#   name     = "dwwm"
+#   location = var.region
+# }
